@@ -58,7 +58,7 @@ $teal:                                hsl(194, 66%, 61%);
 $cyan:                                hsl(207, 49%, 37%);
 
 $colors: (
-  "blue":                             $blue,
+  "blue":                             #d94194,
   "indigo":                           $indigo,
   "purple":                           $purple,
   "pink":                             $pink,
@@ -71,8 +71,8 @@ $colors: (
   "white":                            $white
 );
 
-$primary:                             var(--cassiopeia-color-primary);
-$primaryBS:                           $blue;
+$primary:                             #d94194;
+$primaryBS:                           #d94194;
 $secondary:                           $gray-600;
 $success:                             $green;
 $info:                                $cyan;
@@ -83,7 +83,7 @@ $dark:                                $gray-800;
 
 
 $theme-colors: (
-  primary:                            $primaryBS,
+  primary:                            #d94194,
   secondary:                          $secondary,
   success:                            $success,
   info:                               $info,

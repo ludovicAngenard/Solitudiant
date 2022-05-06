@@ -2,26 +2,36 @@
     display: block;
     margin: 0px auto;
     padding-top: 4em;
+    max-width: 100%;
 }
 .button-banner{
-    width: 200px;
-    background: linear-gradient(0.45turn, #5F41C4, #4173C4, white);
+    width: 250px;
+    max-width: 100%;
+    background: linear-gradient(to right bottom, #5F41C4, #CDD8EF);
 }
 .iam{
     color: white;
     font-size: 14pt;
-    border-bottom: solid 2px white;
+    border-bottom: solid 1px white;
     width: 85%;
+    margin: auto;
 }
-.button{
-    background-color: #d94194;
-    padding: 10px ;
-    color: white;
-    border: none;
-    margin: 10px auto 0px auto;
-    display: block;
-    border-radius: 5%;
+
+.btn-primary:visited,
+.btn-primary:active,
+.btn-primary:hover{
+    background-color: #992e87;
+    border-color: #992e87;
+}
+.btn.btn-primary{
+    width: 100%;
+    padding: 5px;
 }
 span{
     color: white;
+}
+.key-number{
+    background-image:  url("../images/backgroundsolitudiant.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
