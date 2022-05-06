@@ -1,0 +1,27 @@
+.customImage{
+    display: block;
+    margin: 0px auto;
+    padding-top: 4em;
+}
+.button-banner{
+    width: 200px;
+    background: linear-gradient(0.45turn, #5F41C4, #4173C4, white);
+}
+.iam{
+    color: white;
+    font-size: 14pt;
+    border-bottom: solid 2px white;
+    width: 85%;
+}
+.button{
+    background-color: #d94194;
+    padding: 10px ;
+    color: white;
+    border: none;
+    margin: 10px auto 0px auto;
+    display: block;
+    border-radius: 5%;
+}
+span{
+    color: white;
+}
