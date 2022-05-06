@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
     </head>
     <body>
-        <jdoc:include type="modules" name="top" />
-        <jdoc:include type="component" />
         <div class="mx-auto container">
             <img  src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/bannière.png" alt="Solitudiant est un challenge étudiant au profit du développement des EA-ESAT et de l'emploi des personnes en situation de handicap." class="customImage" />
             <div class='d-flex flex-row justify-content-center align-items-start'>
@@ -102,8 +100,5 @@
             </div>
             <div class="clearfix"></div>
         </div>
-
-
-        <jdoc:include type="modules" name="bottom" />
     </body>
 </html>
